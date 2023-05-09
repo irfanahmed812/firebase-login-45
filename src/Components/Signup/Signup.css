@@ -1,0 +1,40 @@
+.signup-btn {
+    border: 2px solid black;
+    background: ghostwhite;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.signup-btn:hover {
+    background: rgb(48, 47, 47);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.3s ease-in;
+}
+
+.card {
+    width: 400px;
+}
+
+.sign-out {
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.sign-out button {
+    background: rgb(235, 36, 36);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.card span {
+    width: 100%;
+    display: block;
+    background: orange;
+    height: 2px;
+}
